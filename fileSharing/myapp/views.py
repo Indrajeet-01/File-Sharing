@@ -57,7 +57,7 @@ class FileDownloadView(APIView):
 def send_email_to_client(email, download_url):
     subject = 'File Download Link'
     message = f'Click on the following link to download your file: {download_url}'
-    from_email = 'your@example.com'  # Replace with your email
+    from_email = 'indrajeetsinghyadav4@gmail.com'  # Replace with your email
     recipient_list = [email]
 
     send_mail(subject, message, from_email, recipient_list)
